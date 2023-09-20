@@ -7,6 +7,7 @@ group = "org.example"
 version = "1.0-SNAPSHOT"
 
 dependencies {
+    implementation("io.realm.kotlin:library-base:${rootProject.extra["realmVersion"]}")
     testImplementation(kotlin("test"))
 }
 
